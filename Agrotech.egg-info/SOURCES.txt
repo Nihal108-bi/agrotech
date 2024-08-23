@@ -1,0 +1,7 @@
+setup.py
+Agrotech.egg-info/PKG-INFO
+Agrotech.egg-info/SOURCES.txt
+Agrotech.egg-info/dependency_links.txt
+Agrotech.egg-info/requires.txt
+Agrotech.egg-info/top_level.txt
+src/__init__.py

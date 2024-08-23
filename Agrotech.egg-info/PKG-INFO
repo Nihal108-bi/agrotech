@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: Agrotech
+Version: 0.0.1
+Author: IOT
+Author-email: nobi837603512999@gmail.com
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: flask
