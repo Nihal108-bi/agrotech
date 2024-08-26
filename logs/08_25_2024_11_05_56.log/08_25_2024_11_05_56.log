@@ -1,0 +1,60 @@
+[ 2024-08-25 11:05:57,947 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.2.73:5000
+[ 2024-08-25 11:05:57,947 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2024-08-25 11:06:13,422 ] 89 root - INFO - Dataframe Gathered
+[ 2024-08-25 11:06:13,601 ] 25 root - INFO - Exception occured in prediction
+[ 2024-08-25 11:06:13,601 ] 57 root - ERROR - Exception occurred: Error occured in python script name [C:\Users\Lenovo\Desktop\agriculture\src\pipelines\prediction_pipeline.py] line number [20] error message ["['visibility_km'] not in index"]
+[ 2024-08-25 11:06:13,617 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 11:06:13] "POST /predict HTTP/1.1" 200 -
+[ 2024-08-25 11:06:35,695 ] 89 root - INFO - Dataframe Gathered
+[ 2024-08-25 11:06:35,740 ] 25 root - INFO - Exception occured in prediction
+[ 2024-08-25 11:06:35,740 ] 57 root - ERROR - Exception occurred: Error occured in python script name [C:\Users\Lenovo\Desktop\agriculture\src\pipelines\prediction_pipeline.py] line number [20] error message ["['visibility_km'] not in index"]
+[ 2024-08-25 11:06:35,740 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 11:06:35] "POST /predict HTTP/1.1" 200 -
+[ 2024-08-25 11:20:35,840 ] 89 root - INFO - Dataframe Gathered
+[ 2024-08-25 11:20:35,907 ] 25 root - INFO - Exception occured in prediction
+[ 2024-08-25 11:20:35,907 ] 57 root - ERROR - Exception occurred: Error occured in python script name [C:\Users\Lenovo\Desktop\agriculture\src\pipelines\prediction_pipeline.py] line number [20] error message ["['visibility_km'] not in index"]
+[ 2024-08-25 11:20:35,907 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 11:20:35] "POST /predict HTTP/1.1" 200 -
+[ 2024-08-25 11:20:58,843 ] 89 root - INFO - Dataframe Gathered
+[ 2024-08-25 11:20:58,908 ] 25 root - INFO - Exception occured in prediction
+[ 2024-08-25 11:20:58,908 ] 57 root - ERROR - Exception occurred: Error occured in python script name [C:\Users\Lenovo\Desktop\agriculture\src\pipelines\prediction_pipeline.py] line number [20] error message ["['visibility_km'] not in index"]
+[ 2024-08-25 11:20:58,908 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 11:20:58] "POST /predict HTTP/1.1" 200 -
+[ 2024-08-25 11:21:44,402 ] 97 werkzeug - ERROR - 172.16.2.73 - - [25/Aug/2024 11:21:44] code 400, message Bad request version ('ÓeÓ\x11Ô\x00uÓþ\x02àlw5ð')
+[ 2024-08-25 11:21:44,402 ] 97 werkzeug - INFO - 172.16.2.73 - - [25/Aug/2024 11:21:44] "[35m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03æ\x03\x10^\x80\x1fÓeÓ\x11Ô\x00uÓþ\x02àlw5ð[0m" HTTPStatus.BAD_REQUEST -
+[ 2024-08-25 11:21:44,407 ] 97 werkzeug - ERROR - 172.16.2.73 - - [25/Aug/2024 11:21:44] code 400, message Bad request syntax ('\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03\x8f\x15MH')
+[ 2024-08-25 11:21:44,407 ] 97 werkzeug - INFO - 172.16.2.73 - - [25/Aug/2024 11:21:44] "[35m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03\x8f\x15MH[0m" HTTPStatus.BAD_REQUEST -
+[ 2024-08-25 11:21:46,059 ] 97 werkzeug - INFO - 172.16.2.73 - - [25/Aug/2024 11:21:46] "GET / HTTP/1.1" 200 -
+[ 2024-08-25 11:21:46,113 ] 97 werkzeug - INFO - 172.16.2.73 - - [25/Aug/2024 11:21:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2024-08-25 11:22:08,152 ] 97 werkzeug - INFO - 172.16.2.73 - - [25/Aug/2024 11:22:08] "GET /predict HTTP/1.1" 200 -
+[ 2024-08-25 11:22:29,013 ] 89 root - INFO - Dataframe Gathered
+[ 2024-08-25 11:22:29,063 ] 25 root - INFO - Exception occured in prediction
+[ 2024-08-25 11:22:29,063 ] 57 root - ERROR - Exception occurred: Error occured in python script name [C:\Users\Lenovo\Desktop\agriculture\src\pipelines\prediction_pipeline.py] line number [20] error message ["['visibility_km'] not in index"]
+[ 2024-08-25 11:22:29,063 ] 97 werkzeug - INFO - 172.16.2.73 - - [25/Aug/2024 11:22:29] "POST /predict HTTP/1.1" 200 -
+[ 2024-08-25 11:23:09,944 ] 89 root - INFO - Dataframe Gathered
+[ 2024-08-25 11:23:09,990 ] 25 root - INFO - Exception occured in prediction
+[ 2024-08-25 11:23:09,990 ] 57 root - ERROR - Exception occurred: Error occured in python script name [C:\Users\Lenovo\Desktop\agriculture\src\pipelines\prediction_pipeline.py] line number [20] error message ["['visibility_km'] not in index"]
+[ 2024-08-25 11:23:09,990 ] 97 werkzeug - INFO - 172.16.2.73 - - [25/Aug/2024 11:23:09] "POST /predict HTTP/1.1" 200 -
+[ 2024-08-25 11:23:47,841 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 11:23:47] "GET / HTTP/1.1" 200 -
+[ 2024-08-25 11:23:47,933 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 11:23:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2024-08-25 11:23:58,138 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 11:23:58] "GET /predict HTTP/1.1" 200 -
+[ 2024-08-25 11:24:25,314 ] 89 root - INFO - Dataframe Gathered
+[ 2024-08-25 11:24:25,381 ] 25 root - INFO - Exception occured in prediction
+[ 2024-08-25 11:24:25,381 ] 57 root - ERROR - Exception occurred: Error occured in python script name [C:\Users\Lenovo\Desktop\agriculture\src\pipelines\prediction_pipeline.py] line number [20] error message ["['visibility_km'] not in index"]
+[ 2024-08-25 11:24:25,381 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 11:24:25] "POST /predict HTTP/1.1" 200 -
+[ 2024-08-25 11:26:10,354 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 11:26:10] "GET / HTTP/1.1" 200 -
+[ 2024-08-25 11:26:16,953 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 11:26:16] "GET /predict HTTP/1.1" 200 -
+[ 2024-08-25 11:26:41,999 ] 89 root - INFO - Dataframe Gathered
+[ 2024-08-25 11:26:42,072 ] 25 root - INFO - Exception occured in prediction
+[ 2024-08-25 11:26:42,072 ] 57 root - ERROR - Exception occurred: Error occured in python script name [C:\Users\Lenovo\Desktop\agriculture\src\pipelines\prediction_pipeline.py] line number [20] error message ["['visibility_km'] not in index"]
+[ 2024-08-25 11:26:42,072 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 11:26:42] "POST /predict HTTP/1.1" 200 -
+[ 2024-08-25 11:34:05,201 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 11:34:05] "GET /predict HTTP/1.1" 200 -
+[ 2024-08-25 11:34:32,237 ] 89 root - INFO - Dataframe Gathered
+[ 2024-08-25 11:34:32,303 ] 25 root - INFO - Exception occured in prediction
+[ 2024-08-25 11:34:32,303 ] 57 root - ERROR - Exception occurred: Error occured in python script name [C:\Users\Lenovo\Desktop\agriculture\src\pipelines\prediction_pipeline.py] line number [20] error message ["['visibility_km'] not in index"]
+[ 2024-08-25 11:34:32,313 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 11:34:32] "POST /predict HTTP/1.1" 200 -
+[ 2024-08-25 11:38:49,580 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 11:38:49] "GET / HTTP/1.1" 200 -
+[ 2024-08-25 11:38:55,612 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 11:38:55] "GET /predict HTTP/1.1" 200 -
+[ 2024-08-25 11:39:23,852 ] 89 root - INFO - Dataframe Gathered
+[ 2024-08-25 11:39:23,899 ] 25 root - INFO - Exception occured in prediction
+[ 2024-08-25 11:39:23,899 ] 57 root - ERROR - Exception occurred: Error occured in python script name [C:\Users\Lenovo\Desktop\agriculture\src\pipelines\prediction_pipeline.py] line number [20] error message ["['visibility_km'] not in index"]
+[ 2024-08-25 11:39:23,916 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 11:39:23] "POST /predict HTTP/1.1" 200 -

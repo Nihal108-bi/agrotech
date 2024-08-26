@@ -1,0 +1,218 @@
+<html>
+    
+    <style>
+     
+
+/* Overall page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form container */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px;
+    padding: 10;
+    margin: auto;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Styling for the result and error display */
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.error {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.results {
+    margin: auto;
+    padding: 0%;
+    width: 50%;
+    text-align: center;
+}
+
+    </style>
+<body>
+<form action="{{url_for('predict_datapoint')}}" method="POST" style="padding: 50;  margin-top: 700;">
+    <div class="form-group">
+        <label for="temperature_celsius">Temperature_celsius:</label>
+        <input type="text" id="temperature_celsius" name="temperature_celsius" placeholder="Enter temperature_celsius value (float)">
+    </div>
+
+    <div class="form-group">  
+        <label for="humidity">Humidity:</label>
+        <input type="text" id="humidity" name="humidity" placeholder="Enter humidity value (float)">
+    </div>
+    
+    <div class="form-group">
+        <label for="wind_mph">Wind_mph:</label>
+        <input type="text" id="wind_mph" name="wind_mph" placeholder="Enter wind_mph value (float)">
+    </div>
+  
+    <div class="form-group">
+        <label for="wind_degree">Wind_degree:</label>
+        <input type="text" id="wind_degree" name="wind_degree" placeholder="Enter wind_degree value (float)">
+    </div>   
+    
+    <div class="form-group">
+        <label for="pressure_mb">Pressure_mb:</label>
+        <input type="text" id="pressure_mb" name="pressure_mb" placeholder="Enter pressure_mb value (float)">
+    </div> 
+    
+    <div class="form-group">
+        <label for="cloud">Cloud:</label>
+        <input type="text" id="cloud" name="cloud" placeholder="Enter cloud value (float)">
+    </div>   
+    
+    <div class="form-group">
+        <label for="visibility_km">Visibility_Km:</label>
+        <input type="text" id="visibility_km" name="visibility_km" placeholder="Enter visibility_Km value (float)">
+    </div>
+    
+    
+    <div class="form-group">
+        <label for="uv_index">UV_index:</label>
+        <input type="text" id="uv_index" name="uv_index" placeholder="Enter uv_index value (float)">
+    </div>    
+   
+    <div class="form-group">
+        <label for="gust_kph">gust_kph:</label>
+        <input type="gust_kph" id="gust_kph" name="gust_kph" placeholder="Enter gust_kph value (float)">
+    </div>     
+
+    <div class="form-group">
+        <label for="wind_kph">wind_kph:</label>
+        <input type="wind_kph" id="wind_kph" name="wind_kph" placeholder="Enter  wind_kph value (float)">
+    </div>  
+    
+    <div class="form-group">
+        <label for="pressure_in">pressure_in:</label>
+        <input type="pressure_in" id="pressure_in" name="pressure_in" placeholder="Enter gpressure_in value (float)">
+    </div>  
+    
+    <div class="form-group">
+        <label for="feels_like_celsius">feels_like_celsius:</label>
+        <input type="feels_like_celsius" id="feels_like_celsius" name="feels_like_celsius" placeholder="Enter gust_kph value (float)">
+    </div>  
+    
+    <div class="form-group">
+        <label for="feels_like_fahrenheit">feels_like_fahrenheit:</label>
+        <input type="feels_like_fahrenheit" id="feels_like_fahrenheit" name="feels_like_fahrenheit" placeholder="Enter feels_like_fahrenheit value (float)">
+    </div>  
+
+    <div class="form-group">
+        <label for="visibility_miles">visibility_miles:</label>
+        <input type="visibility_miles" id="visibility_miles" name="visibility_miles" placeholder="Enter visibility_miles value (float)">
+    </div>
+    
+    <div class="form-group">
+        <label for="gust_mph">gust_mph:</label>
+        <input type="gust_mph" id="gust_mph" name="gust_mph" placeholder="Enter gust_mph value (float)">
+    </div>    
+    
+    
+  
+<div class="form-group">
+  <label for="wind_direction">Wind_direction:</label>
+  <select id="wind_direction" name="wind_direction">
+    <option value="WNW">WNW</option>
+    <option value="NW">NW</option>
+    <option value="W">W</option>
+    <option value="WSW">WSW</option>
+    <option value="WNW">WNW</option>
+    <option value="NNW">NW</option>
+    <option value="SSW">SSW</option>
+    <option value="ENE">ENE</option>
+    <option value="ESE">ESE</option>
+    <option value="SSE">SSE</option>
+    <option value="NNE">NNE</option>
+    <option value="N">N</option>
+    <option value="SW">SW</option>
+    <option value="S">S</option>
+    <option value="E">E</option>
+    <option value="NE">NE</option>
+    <option value="SE">SE</option>
+
+  </select>
+</div>
+  
+
+
+
+<div style="clear:both;"></div>
+  <input type="submit" value="Submit">
+</form>
+
+<div 
+class="results" 
+style="font-size: 4rem; color: black; text-align: center; margin-top: 350;">
+    <h2> Your Prediction is : {{final_result}}</h2>
+</div>
+</body>
+</html>

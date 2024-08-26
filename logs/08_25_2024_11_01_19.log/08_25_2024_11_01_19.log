@@ -1,0 +1,11 @@
+[ 2024-08-25 11:01:20,817 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-08-25 11:01:20,828 ] 97 werkzeug - INFO -  * Debugger PIN: 318-665-962
+[ 2024-08-25 11:02:00,802 ] 54 root - ERROR - ValueError: could not convert string to float: ''
+[ 2024-08-25 11:02:00,816 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 11:02:00] "POST /predict HTTP/1.1" 200 -
+[ 2024-08-25 11:02:09,462 ] 54 root - ERROR - ValueError: could not convert string to float: ''
+[ 2024-08-25 11:02:09,462 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 11:02:09] "POST /predict HTTP/1.1" 200 -
+[ 2024-08-25 11:02:36,451 ] 89 root - INFO - Dataframe Gathered
+[ 2024-08-25 11:02:37,319 ] 25 root - INFO - Exception occured in prediction
+[ 2024-08-25 11:02:37,320 ] 57 root - ERROR - Exception occurred: Error occured in python script name [C:\Users\Lenovo\Desktop\agriculture\src\pipelines\prediction_pipeline.py] line number [20] error message ["['visibility_km'] not in index"]
+[ 2024-08-25 11:02:37,325 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 11:02:37] "POST /predict HTTP/1.1" 200 -
+[ 2024-08-25 11:05:35,622 ] 97 werkzeug - INFO -  * Detected change in 'c:\\users\\lenovo\\desktop\\agriculture\\application.py', reloading

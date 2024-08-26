@@ -1,0 +1,6 @@
+temperature
+humidity
+latitude
+logitude
+wind speed
+wind angle

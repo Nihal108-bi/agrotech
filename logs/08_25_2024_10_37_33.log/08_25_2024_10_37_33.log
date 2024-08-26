@@ -1,0 +1,12 @@
+[ 2024-08-25 10:37:34,854 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-08-25 10:37:34,863 ] 97 werkzeug - INFO -  * Debugger PIN: 318-665-962
+[ 2024-08-25 10:37:48,071 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 10:37:48] "GET / HTTP/1.1" 200 -
+[ 2024-08-25 10:37:48,151 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 10:37:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2024-08-25 10:37:54,055 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 10:37:54] "GET /predict HTTP/1.1" 200 -
+[ 2024-08-25 10:38:20,698 ] 68 root - INFO - Dataframe Gathered
+[ 2024-08-25 10:38:21,979 ] 25 root - INFO - Exception occured in prediction
+[ 2024-08-25 10:38:21,979 ] 57 root - ERROR - Exception occurred: Error occured in python script name [C:\Users\Lenovo\Desktop\agriculture\src\pipelines\prediction_pipeline.py] line number [20] error message ["['wind_kph', 'pressure_in', 'feels_like_celsius', 'feels_like_fahrenheit', 'visibility_km', 'visibility_miles', 'gust_mph'] not in index"]
+[ 2024-08-25 10:38:21,989 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 10:38:21] "POST /predict HTTP/1.1" 200 -
+[ 2024-08-25 10:38:22,501 ] 54 root - ERROR - ValueError: could not convert string to float: ''
+[ 2024-08-25 10:38:22,510 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 10:38:22] "POST /predict HTTP/1.1" 200 -
+[ 2024-08-25 10:58:04,723 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\Lenovo\\Desktop\\agriculture\\src\\pipelines\\prediction_pipeline.py', reloading

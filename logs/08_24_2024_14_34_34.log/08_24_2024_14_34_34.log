@@ -1,0 +1,27 @@
+[ 2024-08-24 14:34:35,896 ] 25 root - INFO - Data Ingestion method starts
+[ 2024-08-24 14:34:35,952 ] 29 root - INFO - Dataset read as pandas Dataframe
+[ 2024-08-24 14:34:36,148 ] 35 root - INFO - Train test split
+[ 2024-08-24 14:34:36,338 ] 41 root - INFO - Ingestion of data is completed
+[ 2024-08-24 14:34:36,413 ] 92 root - INFO - Read train and test data completed
+[ 2024-08-24 14:34:36,420 ] 93 root - INFO - Train Dataframe Head : 
+   last_updated_epoch  temperature_celsius  temperature_fahrenheit  wind_mph  wind_kph  wind_degree wind_direction  pressure_mb  pressure_in  precip_mm  precip_in  humidity  cloud  feels_like_celsius  feels_like_fahrenheit  visibility_km  visibility_miles  uv_index  gust_mph  gust_kph
+0          1693016467                 17.7                    63.8       5.1       8.3           71            ENE         1010        29.82       0.00        0.0        78      6                17.7                   63.8           10.0                 6         1       9.0      14.4
+1          1693021565                 22.0                    71.5       2.2       3.6          150            SSE         1008        29.77       0.03        0.0        98    100                22.0                   71.5            0.0                 0         1       2.4       3.8
+2          1693008424                 19.8                    67.6       2.2       3.6           77            ENE         1007        29.73       0.00        0.0        98    100                19.8                   67.6            0.0                 0         1       2.5       4.0
+3          1693013209                 26.8                    80.3       8.3      13.3          245            WSW         1006        29.71       0.00        0.0        84     24                30.4                   86.6           10.0                 6         1      12.1      19.4
+4          1693019929                 16.2                    61.2       2.2       3.6          130             SE         1012        29.88       0.00        0.0        99    100                16.2                   61.2            0.0                 0         1       2.3       3.7
+[ 2024-08-24 14:34:36,426 ] 94 root - INFO - Test Dataframe Head  : 
+   last_updated_epoch  temperature_celsius  temperature_fahrenheit  wind_mph  wind_kph  wind_degree wind_direction  pressure_mb  pressure_in  precip_mm  precip_in  humidity  cloud  feels_like_celsius  feels_like_fahrenheit  visibility_km  visibility_miles  uv_index  gust_mph  gust_kph
+0          1693008020                 26.4                    79.5       8.9      14.4          258            WSW         1007        29.72        0.0       0.00        85     33                29.7                   85.5           10.0                 6         1      14.1      22.7
+1          1693015958                 26.1                    78.9       4.9       7.9          326            NNW         1006        29.72        0.0       0.00        82     17                28.8                   83.9           10.0                 6         1       9.5      15.3
+2          1693006647                 26.3                    79.3      11.9      19.1          272              W         1004        29.63        0.0       0.00        78     42                28.9                   84.0           10.0                 6         1      16.6      26.6
+3          1693005717                 24.0                    75.2       4.7       7.6          211            SSW         1002        29.57        0.3       0.01        96    100                26.6                   79.9           10.0                 6         1       7.2      11.5
+4          1693006071                 24.9                    76.8       3.1       5.0           46             NE         1005        29.67        0.1       0.00        71     79                26.6                   79.9           10.0                 6         1       6.5      10.4
+[ 2024-08-24 14:34:36,426 ] 96 root - INFO - Obtaining preprocessing object
+[ 2024-08-24 14:34:36,426 ] 36 root - INFO - Data Transformation initiated
+[ 2024-08-24 14:34:36,426 ] 48 root - INFO - Pipeline Initiated
+[ 2024-08-24 14:34:36,464 ] 117 root - INFO - Applying preprocessing object on training and testing datasets.
+[ 2024-08-24 14:34:36,475 ] 128 root - INFO - Processsor pickle in created and saved
+[ 2024-08-24 14:34:36,476 ] 28 root - INFO - Splitting Dependent and Independent variables from train and test data
+[ 2024-08-24 14:34:52,106 ] 48 root - INFO - Model Report : {'LinearRegression': 0.09944369304001577, 'Lasso': -0.00013390805797142136, 'Ridge': 0.09932567162096051, 'Elasticnet': -0.00013390805797142136, 'DecisionTree': 0.5550054070904997, 'RandomForest': 0.7738821609385914}
+[ 2024-08-24 14:34:52,106 ] 61 root - INFO - Best Model Found , Model Name : RandomForest , R2 Score : 0.7738821609385914

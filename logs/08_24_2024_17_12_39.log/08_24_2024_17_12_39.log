@@ -1,0 +1,14 @@
+[ 2024-08-24 17:12:40,732 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-08-24 17:12:40,736 ] 97 werkzeug - INFO -  * Debugger PIN: 135-132-642
+[ 2024-08-24 17:12:48,752 ] 68 root - INFO - Dataframe Gathered
+[ 2024-08-24 17:12:49,204 ] 25 root - INFO - Exception occured in prediction
+[ 2024-08-24 17:12:49,204 ] 57 root - ERROR - Exception occurred: Error occured in python script name [C:\Users\Lenovo\Desktop\agriculture\src\pipelines\prediction_pipeline.py] line number [20] error message ["['wind_kph', 'pressure_in', 'feels_like_celsius', 'feels_like_fahrenheit', 'visibility_km', 'visibility_miles', 'gust_mph'] not in index"]
+[ 2024-08-24 17:12:49,220 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:12:49] "POST /predict HTTP/1.1" 200 -
+[ 2024-08-24 17:13:13,883 ] 68 root - INFO - Dataframe Gathered
+[ 2024-08-24 17:13:13,926 ] 25 root - INFO - Exception occured in prediction
+[ 2024-08-24 17:13:13,926 ] 57 root - ERROR - Exception occurred: Error occured in python script name [C:\Users\Lenovo\Desktop\agriculture\src\pipelines\prediction_pipeline.py] line number [20] error message ["['wind_kph', 'pressure_in', 'feels_like_celsius', 'feels_like_fahrenheit', 'visibility_km', 'visibility_miles', 'gust_mph'] not in index"]
+[ 2024-08-24 17:13:13,943 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:13:13] "POST /predict HTTP/1.1" 200 -
+[ 2024-08-24 17:13:39,130 ] 68 root - INFO - Dataframe Gathered
+[ 2024-08-24 17:13:39,189 ] 25 root - INFO - Exception occured in prediction
+[ 2024-08-24 17:13:39,189 ] 57 root - ERROR - Exception occurred: Error occured in python script name [C:\Users\Lenovo\Desktop\agriculture\src\pipelines\prediction_pipeline.py] line number [20] error message ["['wind_kph', 'pressure_in', 'feels_like_celsius', 'feels_like_fahrenheit', 'visibility_km', 'visibility_miles', 'gust_mph'] not in index"]
+[ 2024-08-24 17:13:39,189 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Aug/2024 17:13:39] "POST /predict HTTP/1.1" 200 -
